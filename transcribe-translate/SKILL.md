@@ -7,7 +7,7 @@ description: Turn an audio or video file (a talk, podcast, interview, lecture, e
 
 One script, `scripts/transcribe_translate.py`, run with the repo venv
 (`<repo>/venv/bin/python`, created by `<repo>/setup.sh`; `<repo>` is the
-tvshow-skills checkout). Needs `ffmpeg`/`ffprobe` on PATH and a running
+video-skills checkout). Needs `ffmpeg`/`ffprobe` on PATH and a running
 Ollama for the translation. Quality first: the Whisper default is `medium`
 (~1.5 GB, downloaded on first use) and the translation goes paragraph by
 paragraph with the previous paragraph as context, through the strongest

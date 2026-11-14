@@ -6,7 +6,7 @@ description: Organize a downloaded show (release-named files and folders, severa
 # jellyfin-organizer — downloads → Jellyfin layout
 
 One script, `jellyfin-organizer/scripts/jellyfin_organizer.py` (standard library
-only). `<repo>` is the tvshow-skills checkout.
+only). `<repo>` is the video-skills checkout.
 
 ```bash
 python3 <repo>/jellyfin-organizer/scripts/jellyfin_organizer.py plan "<folder>" --series "Title" \

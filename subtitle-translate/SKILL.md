@@ -7,7 +7,7 @@ description: Extract the subtitle track of a video, or of every video under a fo
 
 One script, `subtitle-translate/scripts/translate_subs.py` (standard library
 only; needs `ffmpeg`/`ffprobe` and a running Ollama). `<repo>` is the
-tvshow-skills checkout. The translation is done by a **local model in Ollama**:
+video-skills checkout. The translation is done by a **local model in Ollama**:
 no API, no credits, nothing leaves the computer. The agent runs the script
 and checks the result; it does not write the translation itself.
 

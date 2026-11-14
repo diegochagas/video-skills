@@ -1,4 +1,4 @@
-# tvshow-skills
+# video-skills
 
 Diego's agent skills for TV shows, anime and movies in a Jellyfin library:
 translate the subtitles a video already has into another language with a
@@ -14,7 +14,7 @@ transcript in Brazilian Portuguese.
 ## Layout
 
 Flat, one directory per skill, the same shape as
-[comic-skills](https://github.com/diegochagas/comic-skills):
+[image-skills](https://github.com/diegochagas/image-skills):
 
 ```
 <skill>/SKILL.md      what the agent reads (workflow, how to pick flags from the request)
@@ -88,7 +88,7 @@ anywhere:
 ```sh
 for s in subtitle-translate jellyfin-organizer subtitle-generator subtitle-sync library-move transcribe-translate; do
   for h in ~/.claude/skills ~/.agents/skills ~/.codex/skills; do
-    mkdir -p "$h" && ln -sfn ~/Projects/tvshow-skills/$s "$h/$s"
+    mkdir -p "$h" && ln -sfn ~/Projects/video-skills/$s "$h/$s"
   done
 done
 ```

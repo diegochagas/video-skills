@@ -1,4 +1,4 @@
-# tvshow-skills
+# video-skills
 
 One skill per top-level folder (`<skill>/SKILL.md` + `<skill>/scripts/`),
 harness-neutral: this file is read as `CLAUDE.md` (Claude Code) and, through

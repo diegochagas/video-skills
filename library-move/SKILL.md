@@ -7,7 +7,7 @@ description: Move a prepared show folder (the Shows/ and Movies/ layout jellyfin
 
 One script, `library-move/scripts/library_move.py` (standard library only;
 needs `rsync`, and `ssh` key access when the library is on another machine).
-`<repo>` is the tvshow-skills checkout.
+`<repo>` is the video-skills checkout.
 
 ```bash
 python3 <repo>/library-move/scripts/library_move.py "<folder>"            # dry run

@@ -17,7 +17,7 @@ time-windows and saves progress, and re-running continues until the full
 
 Scripts in `subtitle-generator/scripts/`, run with the repo venv
 (`<repo>/venv/bin/python`, created by `<repo>/setup.sh`, which installs
-faster-whisper). `<repo>` is the tvshow-skills checkout. Needs `ffmpeg` on PATH.
+faster-whisper). `<repo>` is the video-skills checkout. Needs `ffmpeg` on PATH.
 The model (~480 MB for `small`) downloads on first use.
 
 **Progress:** the script prints `FINISHED <episode file name>` as soon as each episode is done; relay those names to Diego as they appear in the log, in the final report too.

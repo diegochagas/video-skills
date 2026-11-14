@@ -7,7 +7,7 @@ description: Check whether the .srt subtitles next to a video (or every video un
 
 One script, `subtitle-sync/scripts/sync_subs.py`. Needs `ffmpeg` and numpy,
 so run it with the repo venv (`<repo>/venv/bin/python`, from `setup.sh`).
-`<repo>` is the tvshow-skills checkout. No model and no network: it is signal
+`<repo>` is the video-skills checkout. No model and no network: it is signal
 processing, about 3 s per episode.
 
 ```bash
